@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Oktos Cervejaria | Chope Artesanal Premium</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Chope artesanal premium para eventos, festas e empresas. Delivery e aluguel de chopeira em Goiânia e região.">
+<meta name="keywords" content="chope artesanal, chope premium, chopp delivery, aluguel de chopeira">
+
+<style>
+:root{
+  --preto:#0b0b0b;
+  --dourado:#c9a24d;
+  --cinza:#f2f2f2;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background:var(--cinza);
+  color:#333;
+}
+
+/* HEADER */
+header{
+  background:var(--preto);
+  padding:16px 30px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+header img{
+  height:46px;
+}
+
+header a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* HERO */
+.hero{
+  background:
+    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee");
+  background-size:cover;
+  background-position:center;
+  padding:120px 20px;
+  text-align:center;
+  color:#fff;
+}
+
+.hero h1{
+  font-size:40px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:20px;
+  margin-bottom:35px;
+}
+
+.btn{
+  background:var(--dourado);
+  color:#000;
+  padding:16px 36px;
+  text-decoration:none;
+  border-radius:50px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+/* SECTION */
+.section{
+  padding:80px 20px;
+  background:#fff;
+  text-align:center;
+}
+
+.section.dark{
+  background:#111;
+  color:#fff;
+}
+
+.section h2{
+  font-size:32px;
+  margin-bottom:20px;
+}
+
+.section p{
+  max-width:850px;
+  margin:0 auto 40px;
+  font-size:18px;
+}
+
+/* CARDS */
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:#f9f9f9;
+  padding:35px 25px;
+  width:300px;
+  border-radius:14px;
+}
+
+.dark .card{
+  background:#1c1c1c;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:#fff;
+  padding:14px 18px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:bold;
+  box-shadow:0 4px 15px rgba(0,0,0,.3);
+  z-index:999;
+}
+
+/* FOOTER */
+footer{
+  background:#000;
+  color:#aaa;
+  text-align:center;
+  padding:40px 20px;
+  font-size:14px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .hero h1{font-size:30px;}
+  .hero p{font-size:17px;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <img src="logo-oktos.png" alt="Oktos Cervejaria">
+  <a href="https://wa.me/5562984149323">WhatsApp (62) 98414-9323</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Chope Artesanal Premium</h1>
+  <p>O padrão de qualidade que transforma seu evento</p>
+  <a class="btn" href="https://wa.me/5562984149323">Solicitar Orçamento</a>
+</section>
+
+<!-- SOBRE -->
+<section class="section">
+  <h2>Oktos Cervejaria</h2>
+  <p>
+    A Oktos produz chope artesanal premium com rigor técnico,
+    ingredientes selecionados e equipamentos profissionais,
+    entregando uma experiência completa para eventos e empresas.
+  </p>
+</section>
+
+<!-- PRODUTOS -->
+<section class="section dark">
+  <h2>Nossos Chopes</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Pilsen</h3>
+      <p>Leve, refrescante e extremamente equilibrado.</p>
+    </div>
+
+    <div class="card">
+      <h3>IPA</h3>
+      <p>Aromática, encorpada e marcante.</p>
+    </div>
+
+    <div class="card">
+      <h3>Lager Premium</h3>
+      <p>Clássica, limpa e com padrão elevado.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTOS -->
+<section class="section">
+  <h2>Eventos & Delivery</h2>
+  <p>
+    Casamentos • Aniversários • Empresas • Confraternizações • Festas Privadas
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    📍 Hidrolândia • Goiânia • Aparecida de Goiânia <br>
+    📞 WhatsApp: (62) 98414-9323
+  </p>
+  <p>© 2026 Oktos Cervejaria – Todos os direitos reservados</p>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a class="whatsapp" href="https://wa.me/5562984149323">💬 WhatsApp</a>
+
+</body>
+</html>
